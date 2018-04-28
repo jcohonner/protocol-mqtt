@@ -11,7 +11,7 @@ RUN  apt-get update \
       python \
   \
   && cd /var/app/protocols/enabled/mqtt \
-  && npm install \
+  && npm install --unsafe \
   && cd /var/app \
   \
   && apt-get clean \
